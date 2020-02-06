@@ -1,0 +1,71 @@
+/* General styles - put these straight into your stylesheet */
+/* Linked in and modified by Davo1984 */
+body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+  font-size: 10px;
+  background-color: #ccc;
+}
+
+/* Selectors to be matched up with rulesets */
+
+/***.card article img***/
+/***.card footer***/
+/***.card header***/
+/***.card ***/
+
+/* Rulesets to be matched up with selectors */
+
+.card {
+  width: 35em;
+  height: 22em;
+  margin: 5em auto;
+  background-color: red;         /** red **/
+  border: 0.2em solid black;
+  border-radius: 1.5em;
+}
+
+.card header {
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+  border-radius: 1.5em 1.5em 0 0;
+}
+
+.card footer {
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(53, 3, 3, 0.1));
+  border-radius: 0 0 1.5em 1.5em;
+}
+
+.card article img {
+  max-height: 100%;
+  float: right;
+}
+
+/* Styles specific to setup of the card container     */
+
+
+
+/* Styles specific to the header and footer           */
+
+.card header, footer {
+  height: 5ems;
+  padding: 1ems;
+}
+
+.card footer p {
+  font-size: 1.5ems;
+  line-height: 0.75ems;
+}
+
+/* Styles specific to the main business card contents */
+
+.card article {
+  height: 12ems;
+}
+
+.card h2 {
+  font-size: 2ems;
+  line-height: 0.5ems;
+}
