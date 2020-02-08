@@ -1,6 +1,6 @@
 /******  General Styles *****/
 
-/* Final (more or less) not pushing to Github! */
+/* Final (more or less) Will the last change push? */
 
 body {
   margin: 0;
@@ -77,5 +77,4 @@ html {
 .card article p {
   padding: 1em;
   font-size: 1.2em;
-  /*background-color: rgba(0, 0, 0, 0.29)*/
 }
