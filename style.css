@@ -1,6 +1,6 @@
 /******  General Styles *****/
 
-/* testing github push */
+/* Final (more or less) not pushing to Github! */
 
 body {
   margin: 0;
@@ -58,7 +58,6 @@ html {
 }
 
 .card header h2 {
-  /*padding: 1em;*/
   font-size: 1.5em;
   line-height: 1.5;
 }
@@ -71,11 +70,12 @@ html {
 /*  Main Card Contents  */
 
 .card article {
-  height: 12em;
+  height: 13em;
   background-color: rgba(0, 0, 0, 0.29);
 }
 
 .card article p {
   padding: 1em;
+  font-size: 1.2em;
   /*background-color: rgba(0, 0, 0, 0.29)*/
 }
