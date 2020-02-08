@@ -53,13 +53,13 @@ html {
 /*  Card Header & Footer */
 
 .card header, .card footer {
-  height: 2.5em;
+  height: 3em;
   padding: 1em;
 }
 
 .card header h2 {
   font-size: 1.5em;
-  line-height: 1.5;
+  line-height: 1.5em;
 }
 
 .card footer p {
@@ -70,7 +70,7 @@ html {
 /*  Main Card Contents  */
 
 .card article {
-  height: 13em;
+  height: 12em;
   background-color: rgba(0, 0, 0, 0.29);
 }
 
